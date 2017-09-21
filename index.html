@@ -21,20 +21,9 @@
   <body>
     <div id="map"></div>
  
-    <script>
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 11,
-          center: {lat: 41.876, lng: -87.624}
-        });
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'http://waltjw.github.io/map_shp/line.kml',
-          map: map
-        });
-      }
-    </script>
     
-    <script>
+    
+      <script>
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
@@ -47,10 +36,7 @@
       }
     </script>
     
-
-
-
-
+    
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1iOj01gAhRaWo3QkukLn-AWmtwMUksXk&callback=initMap">
     </script>
